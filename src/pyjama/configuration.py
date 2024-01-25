@@ -181,7 +181,7 @@ conf = pyjama.Configuration(
         """Debug switch
         """
 
-        self.verify_ssl = True
+        self.verify_ssl = False
         """SSL/TLS verification
            Set this to false to skip verifying SSL certificate when calling API
            from https server.
